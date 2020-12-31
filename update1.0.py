@@ -15,7 +15,7 @@ while True:
     time.sleep(5) # Tiempo esperado para capturar y comparar la posision del mouse
     cord_x2, cord_y2 = pyautogui.position()
     
-    #Compara la captura de posision del Mouse
+    #Compara la captura de posicion del Mouse
     if cord_x2 == cord_x and cord_y2 == cord_y:
         time.sleep(4)
         print('paso 4 seg ...')
